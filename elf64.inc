@@ -128,7 +128,6 @@ namespace elf64
 		end irp
 	end macro
 
-	debug = 0
 	asciiz = 0
 
 	namespace sys
@@ -270,10 +269,6 @@ end macro
 macro leastr reg*, data*&
 	dstr data
 	movopt reg, @
-end macro
-
-macro @debug
-	elf64.debug = 1
 end macro
 
 irp name, dyncall, sys, dstr, leastr
