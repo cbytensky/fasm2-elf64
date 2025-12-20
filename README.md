@@ -1,6 +1,6 @@
 # fasm2-elf64
 Macro for fasm2 to produce x86-64 Linux ELF64 executables.
-* Dynamic linking support,
+* Dynamic linking support.
 * Call macros for `syscall`s and `stdcall`s.
 
 ## HelloWorld using `syscall`
