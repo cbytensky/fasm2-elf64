@@ -26,4 +26,4 @@ needed "libc.so.6"
 
 `dyncallz` is like `dyncall` (call function from a dynamic library with parameters), but appends a zero byte to all string arguments.
 
-Produces `464`-byte ELF64 executable. Once again: can anyone beat this size?
+Produces `521`-byte ELF64 executable. Once again: can anyone beat this size?
